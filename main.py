@@ -231,8 +231,8 @@ def currency_forecast():
 def save_data_to_yandex_disk():
     if not os.path.exists(YADISK_TOKEN_PATH):
         print(
-            '\nНеобходимо перейти по этой ссылке: https://yandex.ru/dev/disk/poligon\n'
-            'и кликнуть на кнопку "Получить OAuth-токен"'
+            '\nНеобходимо перейти по этой ссылке:\nhttps://oauth.yandex.ru/authorize?response_type=token&client_id=dee303ce9a9a4693994a1aabaf3a33d7\n'
+            'и авторизоваться\n'
         )
 
         token = input('Затем вставьте токен: ')
