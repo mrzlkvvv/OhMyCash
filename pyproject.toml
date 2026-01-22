@@ -1,7 +1,6 @@
 [project]
 name = "ohmycash"
 version = "0.1.0"
-description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -10,3 +9,9 @@ dependencies = [
     "requests>=2.32.3",
     "yadisk>=3.3.0",
 ]
+
+[tool.ruff]
+line-length = 128
+
+[tool.ruff.format]
+quote-style = "single"

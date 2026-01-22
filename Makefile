@@ -1,10 +1,10 @@
 .SILENT:
 
 run:
-	uv run ./main.py
+	uv run ./src/main.py
 
 lint:
-	uvx ruff check
+	uvx ruff check ./src/
 
 update:
 	uv sync -U

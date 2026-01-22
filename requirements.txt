@@ -2,7 +2,7 @@
 #    uv pip compile pyproject.toml
 beautifulsoup4==4.14.3
     # via ohmycash (pyproject.toml)
-certifi==2025.11.12
+certifi==2026.1.4
     # via requests
 charset-normalizer==3.4.4
     # via requests
@@ -10,23 +10,23 @@ contourpy==1.3.3
     # via matplotlib
 cycler==0.12.1
     # via matplotlib
-fonttools==4.61.0
+fonttools==4.61.1
     # via matplotlib
 idna==3.11
     # via requests
 kiwisolver==1.4.9
     # via matplotlib
-matplotlib==3.10.7
+matplotlib==3.10.8
     # via ohmycash (pyproject.toml)
-numpy==2.3.5
+numpy==2.4.1
     # via
     #   contourpy
     #   matplotlib
-packaging==25.0
+packaging==26.0
     # via matplotlib
-pillow==12.0.0
+pillow==12.1.0
     # via matplotlib
-pyparsing==3.2.5
+pyparsing==3.3.2
     # via matplotlib
 python-dateutil==2.9.0.post0
     # via matplotlib
@@ -34,11 +34,11 @@ requests==2.32.5
     # via ohmycash (pyproject.toml)
 six==1.17.0
     # via python-dateutil
-soupsieve==2.8
+soupsieve==2.8.3
     # via beautifulsoup4
 typing-extensions==4.15.0
     # via beautifulsoup4
-urllib3==2.6.1
+urllib3==2.6.3
     # via requests
 yadisk==3.4.0
     # via ohmycash (pyproject.toml)
